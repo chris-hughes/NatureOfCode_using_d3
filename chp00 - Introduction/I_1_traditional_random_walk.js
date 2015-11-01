@@ -64,7 +64,7 @@ var walker = new Walker();
 walker.display();
 
 d3.timer(function() {
-  var deg = (Date.now() - start) * speed ; 
+  // var deg = (Date.now() - start) * speed ; 
   walker.step();
   walker.display();
   //svg.attr("transform", transVal); // fixed ring*/
